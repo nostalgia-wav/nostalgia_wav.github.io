@@ -1,0 +1,21 @@
+button,
+.button {
+    padding: calc(var(--spacing) / 2);
+    border-radius: var(--radius);
+    font-family: accent;
+    font-size: var(--font-size-button);
+
+    background-color: var(--accent-color);
+    color: var(--text-color);
+
+    border: none;
+    text-decoration: none;
+    transition: ease-in-out 200ms;
+}
+
+button:hover,
+.button:hover {
+    background-color: var(--text-color);
+    color: var(--accent-color);
+    display: inline-block;
+}

@@ -1,0 +1,74 @@
+:root {
+    --spacing: 1rem;
+
+    --font-size: 1.125rem;
+    --font-size-button: 1.5rem;
+    --font-size-title: 2.25rem;
+    --font-size-nav: 1.75rem;
+
+    --blur-intensity: 0.25rem;
+    --blur-color: #ffffff50;
+
+    --text-color: #ffffff;
+
+    --accent-color: #cd731f;
+    --accent-color-light: #edaf39;
+
+    --tenary-color: #307275;
+    --tenary-color-light: #33a1a7;
+
+    --radius: 0.5rem;
+
+    --shadow-color-block: #00000050;
+    --shadow-color-font: black;
+    --shadow-size: 0.25rem;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 800px;
+    width: 80%;
+    margin: var(--spacing) auto 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    padding: var(--spacing);
+    align-items: center;
+}
+
+main > p {
+    margin: 0;
+    text-shadow: calc(var(--shadow-size) / 2) calc(var(--shadow-size) / 2)
+        var(--shadow-size) var(--shadow-color-font);
+    text-align: justify;
+}
+
+main > img {
+    width: 95%;
+    margin: 0;
+    border-radius: var(--radius);
+    box-shadow: 0 calc(var(--shadow-size) / 2) var(--shadow-size)
+        var(--shadow-color-block);
+}
+
+main > .button {
+    display: block;
+    width: fit-content;
+    margin: 0;
+    box-shadow: 0 calc(var(--shadow-size) / 2) var(--shadow-size)
+        var(--shadow-color-block);
+}

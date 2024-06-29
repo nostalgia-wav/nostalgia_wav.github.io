@@ -1,0 +1,26 @@
+@font-face {
+    font-family: accent;
+    src: url(../font/built_titling_rg.otf);
+}
+
+:root {
+    font-family: "Open Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    color: var(--text-color);
+    font-size: var(--font-size);
+}
+
+a {
+    color: var(--accent-color);
+    font-size: var(--font-size);
+    transition: ease-in-out 200ms;
+}
