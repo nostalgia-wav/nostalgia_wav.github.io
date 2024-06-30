@@ -3,9 +3,13 @@
     src: url(../font/built_titling_rg.otf);
 }
 
-:root {
-    font-family: accent;
+@font-face {
+    font-family: primary;
     src: url(../font/archivo_narrow.ttf);
+}
+
+:root {
+    font-family: primary
 }
 
 h1,
