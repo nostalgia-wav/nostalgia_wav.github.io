@@ -31,7 +31,9 @@ body {
 }
 
 body {
-    background-image: url("../img/background.png");
+    background-color: black;
+    background: var(--shadow-color-block) url("../img/background.png");
+    background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
