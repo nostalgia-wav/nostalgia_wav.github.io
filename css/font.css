@@ -4,9 +4,7 @@
 }
 
 :root {
-    font-family: accent;
-    font-weight: normal;
-    src: url(../font/archivo_narrow.ttf);
+    font-family: "Open Sans";
 }
 
 h1,
